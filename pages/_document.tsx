@@ -78,11 +78,15 @@ export default class MyDocument extends Document {
             dangerouslySetInnerHTML={{
               __html: `
               var unlockProtocolConfig = {
-                "network": 10, 
                 "locks": {
                   "0x53FaF6285C426920b7d103c5f4a40F7788E1F1FD": {
+                    "network": 10, 
                     "name": "ETHTaipei 2023"
-                  }
+                  },
+                  // "0xanotherlock": {
+                  //  "network": 1, 
+                  //  "name": "ETHTaipei 2023 on mainnet"
+                  //}
                 },    
                 "title": "ETHTaipei Early Bird",
                 "icon": "https://ethtaipei.org/images/logo-transparent.png"           
